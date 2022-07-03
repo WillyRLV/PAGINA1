@@ -117,14 +117,14 @@ img {
   padding: 5.5rem 0 1rem;
 }
 
-.section_title,
-.section_title-center {
+.section__title,
+.section__title-center {
   font-size: var(--h2-font-size);
   margin-bottom: var(--mb-2);
   line-height: 140%;
 }
 
-.section_title-center {
+.section__title-center {
   text-align: center;
 }
 
@@ -153,6 +153,14 @@ img {
   z-index: var(--z-fixed);
   transition: 0.5s;
 }
+
+/*=============================STEPS===========================*/
+.steps__bg{
+ 
+  padding: 3rem 2rem 2rem;
+  border-radius: 1rem;
+}
+
 
 /*=============================INICIO==========================*/
 .home {
